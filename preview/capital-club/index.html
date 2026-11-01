@@ -30,7 +30,7 @@ input,select{caret-color:var(--navy)}
 .layout{flex:1;min-height:0;padding:8px 12px 0}
 .board-shell{width:100%;height:100%;display:flex;align-items:center;justify-content:center;min-height:0}
 .board{position:relative;display:grid;grid-template-columns:repeat(var(--board-cols,10),minmax(0,1fr));grid-template-rows:repeat(var(--board-rows,10),minmax(0,1fr));gap:0;isolation:isolate;flex:none}
-.board::before{content:"";position:absolute;inset:calc(var(--board-gutter,20px) - 2px);z-index:-1;background:#183755;border:1px solid #d5b5609c;border-radius:10px;box-shadow:0 12px 30px #020b2255;pointer-events:none}
+.board::before{content:"";position:absolute;inset:calc(var(--board-gutter,20px) - 2px);z-index:-1;background:#183755;border:1px solid #d5b5609c;border-radius:10px;box-shadow:0 12px 30px #00000055;pointer-events:none}
 .tile{position:relative;min-width:0;min-height:0;aspect-ratio:1;display:flex;align-items:center;justify-content:center;flex-direction:column;border:1px solid #d4cbb6;border-radius:3px;background:var(--white);overflow:visible}
 .tile.property{cursor:pointer;transition:filter .16s}
 .tile.property:hover{filter:brightness(1.07);z-index:4}
@@ -197,23 +197,23 @@ label{font-size:12px;font-weight:700;display:block;margin-bottom:7px}
 @media(max-width:700px){
  .app-header{height:76px;display:grid;grid-template-columns:1fr auto;gap:5px 10px;padding:7px 12px}
  .brand{gap:9px}.logo{width:34px;height:34px;padding:5px;border-radius:9px}.brand b{font-size:18px}
- .board-heading{display:contents}.board-heading strong{grid-column:1;grid-row:2;font-size:10px}.board-heading span{grid-column:2;grid-row:2;border:0;padding:0;font-size:9px;text-align:right}
- .board-leave{grid-column:2;grid-row:1;font-size:10px;padding:8px 10px}
- .layout{padding:4px 5px 0}.footer{font-size:8px;padding:4px 6px}
+ .board-heading{display:contents}.board-heading strong{grid-column:1;grid-row:2;font-size:11px}.board-heading span{grid-column:2;grid-row:2;border:0;padding:0;font-size:11px;text-align:right}
+ .board-leave{grid-column:2;grid-row:1;font-size:11px;padding:8px 10px}
+ .layout{padding:4px 5px 0}.footer{font-size:10px;padding:4px 6px}
  .center{margin:1px;border-radius:8px}.center-panel{padding:7px;gap:6px;font-size:11px}
  .panel-tabs{display:flex;gap:3px;flex:none;position:sticky;top:-7px;background:var(--paper);z-index:10;padding-bottom:4px;border-bottom:1px solid #d8d6c9}
  .panel-tabs button{flex:1;border:0;border-radius:6px;background:transparent;color:var(--muted);font-size:11px;font-weight:800;min-height:30px;padding:5px}
  .panel-tabs button[aria-pressed=true]{background:var(--navy);color:var(--paper)}
  .center-panel[data-view=game] .center-assets,.center-panel[data-view=game] .feed,.center-panel[data-view=assets] .center-top,.center-panel[data-view=assets] .feed,.center-panel[data-view=log] .center-top,.center-panel[data-view=log] .center-assets{display:none}
- .center-top{display:flex;flex-direction:column;gap:5px}.roster{width:100%}.roster-meta{font-size:9px;margin-bottom:4px}
- .players{gap:4px;max-height:70px}.player{grid-template-columns:24px minmax(0,1fr);padding:4px;border-radius:7px;column-gap:4px}.avatar{width:24px;height:28px;border-radius:5px}.pname{font-size:10px}.cash{font-size:11px}
+ .center-top{display:flex;flex-direction:column;gap:5px}.roster{width:100%}.roster-meta{font-size:11px;margin-bottom:4px}
+ .players{gap:4px;max-height:70px}.player{grid-template-columns:24px minmax(0,1fr);padding:4px;border-radius:7px;column-gap:4px}.avatar{width:24px;height:28px;border-radius:5px}.pname{font-size:11px}.cash{font-size:11px}
  .action-stage{width:100%;padding:0;border:0;gap:4px;display:grid;grid-template-columns:1fr 1fr;align-items:center}.turn{grid-column:1/-1;font-size:12px;min-height:1.4em}
- .dice-panel{min-height:40px;gap:4px}.dice-faces{gap:6px;padding:5px}.die{width:22px;height:22px;--die-size:22px}#diceTotal{font-size:25px}.dice-equation small{font-size:10px}
- .actions .btn.primary{font-size:12px;padding:9px 5px;border-radius:8px}.actions .btn:not(.primary){font-size:9px;padding:5px}
+ .dice-panel{min-height:40px;gap:4px}.dice-faces{gap:6px;padding:5px}.die{width:22px;height:22px;--die-size:22px}#diceTotal{font-size:25px}.dice-equation small{font-size:11px}
+ .actions .btn.primary{font-size:12px;padding:9px 5px;border-radius:8px}.actions .btn:not(.primary){font-size:11px;padding:5px}
  .center-assets{border:0;padding:0;min-height:0;flex:none}.section-heading{margin:1px 0 7px}.section-heading strong,.feed>strong{font-size:12px}.section-heading span{display:none}
- .owned{grid-template-columns:repeat(2,minmax(0,1fr));gap:6px;max-height:none;overflow:visible}.owned-card{padding:6px;border-radius:8px}.owned-logo{height:35px}.owned-name{font-size:10px}.owned-price{font-size:12px}.owned-rent{font-size:9px}.center-property{font-size:9px}.empty-owned{font-size:10px;padding:14px 7px}
- .log{max-height:none;font-size:10px}.log-entry{gap:5px;padding:5px 0}.feed{padding-top:1px}.debt-panel{padding:7px;font-size:10px}.debt-actions .btn{min-height:30px;padding:6px;font-size:9px}.debt-actions .bankrupt{margin-left:0}
- .lobby{padding:14px}.lobby-card{display:block;max-width:440px;margin:auto}.lobby-story{padding:18px 22px}.lobby-story h2,.lobby-story p,.lobby-car,.lobby-story .steps{display:none}.lobby-story .brand b{font-size:19px}.lobby-story .brand small{font-size:8px}.lobby-story .logo{width:38px;height:38px}.lobby-form{padding:22px}.lobby-form h1{font-size:25px}.lobby-form>p{font-size:12px;margin-bottom:18px}
+ .owned{grid-template-columns:repeat(2,minmax(0,1fr));gap:6px;max-height:none;overflow:visible}.owned-card{padding:6px;border-radius:8px}.owned-logo{height:35px}.owned-name{font-size:11px}.owned-price{font-size:12px}.owned-rent{font-size:11px}.center-property{font-size:11px}.empty-owned{font-size:11px;padding:14px 7px}
+ .log{max-height:none;font-size:11px}.log-entry{gap:5px;padding:5px 0}.feed{padding-top:1px}.debt-panel{padding:7px;font-size:11px}.debt-actions .btn{min-height:30px;padding:6px;font-size:11px}.debt-actions .bankrupt{margin-left:0}
+ .lobby{padding:14px}.lobby-card{display:block;max-width:440px;margin:auto}.lobby-story{padding:18px 22px}.lobby-story h2,.lobby-story p,.lobby-car,.lobby-story .steps{display:none}.lobby-story .brand b{font-size:19px}.lobby-story .brand small{font-size:10px}.lobby-story .logo{width:38px;height:38px}.lobby-form{padding:22px}.lobby-form h1{font-size:25px}.lobby-form>p{font-size:12px;margin-bottom:18px}
 }
 @media(prefers-reduced-motion:reduce){*,*::before,*::after{animation:none!important;transition:none!important}.tile-pieces .token{transform:translate(-50%,-50%)}}
 </style></head>
