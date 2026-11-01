@@ -1,0 +1,465 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-11-01T02:02:32.421Z",
+  "title": "Design System: 企业地产大亨 · Capital Club",
+  "extensions": {
+    "colorMeta": {
+      "stage": {
+        "role": "neutral",
+        "displayName": "Midnight Stage",
+        "tonalRamp": [
+          "oklch(15% 0.06231 258.90)",
+          "oklch(25% 0.06231 258.90)",
+          "oklch(35% 0.06231 258.90)",
+          "oklch(45% 0.06231 258.90)",
+          "oklch(58% 0.06231 258.90)",
+          "oklch(70% 0.06231 258.90)",
+          "oklch(83% 0.06231 258.90)",
+          "oklch(95% 0.06231 258.90)"
+        ]
+      },
+      "navy": {
+        "role": "secondary",
+        "displayName": "Club Navy",
+        "tonalRamp": [
+          "oklch(15% 0.07638 258.68)",
+          "oklch(25% 0.07638 258.68)",
+          "oklch(35% 0.07638 258.68)",
+          "oklch(45% 0.07638 258.68)",
+          "oklch(58% 0.07638 258.68)",
+          "oklch(70% 0.07638 258.68)",
+          "oklch(83% 0.07638 258.68)",
+          "oklch(95% 0.07638 258.68)"
+        ]
+      },
+      "paper": {
+        "role": "neutral",
+        "displayName": "Club Paper",
+        "tonalRamp": [
+          "oklch(15% 0.01325 102.01)",
+          "oklch(25% 0.01325 102.01)",
+          "oklch(35% 0.01325 102.01)",
+          "oklch(45% 0.01325 102.01)",
+          "oklch(58% 0.01325 102.01)",
+          "oklch(70% 0.01325 102.01)",
+          "oklch(83% 0.01325 102.01)",
+          "oklch(95% 0.01325 102.01)"
+        ]
+      },
+      "tile": {
+        "role": "neutral",
+        "displayName": "Logo Ivory",
+        "tonalRamp": [
+          "oklch(15% 0.00796 98.87)",
+          "oklch(25% 0.00796 98.87)",
+          "oklch(35% 0.00796 98.87)",
+          "oklch(45% 0.00796 98.87)",
+          "oklch(58% 0.00796 98.87)",
+          "oklch(70% 0.00796 98.87)",
+          "oklch(83% 0.00796 98.87)",
+          "oklch(95% 0.00796 98.87)"
+        ]
+      },
+      "gold": {
+        "role": "primary",
+        "displayName": "Club Gold",
+        "tonalRamp": [
+          "oklch(15% 0.14066 85.45)",
+          "oklch(25% 0.14066 85.45)",
+          "oklch(35% 0.14066 85.45)",
+          "oklch(45% 0.14066 85.45)",
+          "oklch(58% 0.14066 85.45)",
+          "oklch(70% 0.14066 85.45)",
+          "oklch(83% 0.14066 85.45)",
+          "oklch(95% 0.14066 85.45)"
+        ]
+      },
+      "ink": {
+        "role": "neutral",
+        "displayName": "Financial Ink",
+        "tonalRamp": [
+          "oklch(15% 0.07483 259.54)",
+          "oklch(25% 0.07483 259.54)",
+          "oklch(35% 0.07483 259.54)",
+          "oklch(45% 0.07483 259.54)",
+          "oklch(58% 0.07483 259.54)",
+          "oklch(70% 0.07483 259.54)",
+          "oklch(83% 0.07483 259.54)",
+          "oklch(95% 0.07483 259.54)"
+        ]
+      },
+      "muted": {
+        "role": "neutral",
+        "displayName": "Slate Annotation",
+        "tonalRamp": [
+          "oklch(15% 0.04284 259.72)",
+          "oklch(25% 0.04284 259.72)",
+          "oklch(35% 0.04284 259.72)",
+          "oklch(45% 0.04284 259.72)",
+          "oklch(58% 0.04284 259.72)",
+          "oklch(70% 0.04284 259.72)",
+          "oklch(83% 0.04284 259.72)",
+          "oklch(95% 0.04284 259.72)"
+        ]
+      },
+      "danger": {
+        "role": "secondary",
+        "displayName": "Debt Red",
+        "tonalRamp": [
+          "oklch(15% 0.15961 20.66)",
+          "oklch(25% 0.15961 20.66)",
+          "oklch(35% 0.15961 20.66)",
+          "oklch(45% 0.15961 20.66)",
+          "oklch(58% 0.15961 20.66)",
+          "oklch(70% 0.15961 20.66)",
+          "oklch(83% 0.15961 20.66)",
+          "oklch(95% 0.15961 20.66)"
+        ]
+      },
+      "button": {
+        "role": "neutral",
+        "displayName": "Control Chalk",
+        "tonalRamp": [
+          "oklch(15% 0.00408 121.56)",
+          "oklch(25% 0.00408 121.56)",
+          "oklch(35% 0.00408 121.56)",
+          "oklch(45% 0.00408 121.56)",
+          "oklch(58% 0.00408 121.56)",
+          "oklch(70% 0.00408 121.56)",
+          "oklch(83% 0.00408 121.56)",
+          "oklch(95% 0.00408 121.56)"
+        ]
+      },
+      "button-hover": {
+        "role": "neutral",
+        "displayName": "Control Hover",
+        "tonalRamp": [
+          "oklch(15% 0.00973 252.81)",
+          "oklch(25% 0.00973 252.81)",
+          "oklch(35% 0.00973 252.81)",
+          "oklch(45% 0.00973 252.81)",
+          "oklch(58% 0.00973 252.81)",
+          "oklch(70% 0.00973 252.81)",
+          "oklch(83% 0.00973 252.81)",
+          "oklch(95% 0.00973 252.81)"
+        ]
+      },
+      "portfolio-card": {
+        "role": "neutral",
+        "displayName": "Portfolio Cream",
+        "tonalRamp": [
+          "oklch(15% 0.00928 99.98)",
+          "oklch(25% 0.00928 99.98)",
+          "oklch(35% 0.00928 99.98)",
+          "oklch(45% 0.00928 99.98)",
+          "oklch(58% 0.00928 99.98)",
+          "oklch(70% 0.00928 99.98)",
+          "oklch(83% 0.00928 99.98)",
+          "oklch(95% 0.00928 99.98)"
+        ]
+      },
+      "field": {
+        "role": "neutral",
+        "displayName": "Field Ivory",
+        "tonalRamp": [
+          "oklch(15% 0.00926 99.98)",
+          "oklch(25% 0.00926 99.98)",
+          "oklch(35% 0.00926 99.98)",
+          "oklch(45% 0.00926 99.98)",
+          "oklch(58% 0.00926 99.98)",
+          "oklch(70% 0.00926 99.98)",
+          "oklch(83% 0.00926 99.98)",
+          "oklch(95% 0.00926 99.98)"
+        ]
+      },
+      "focus": {
+        "role": "secondary",
+        "displayName": "Focus Blue",
+        "tonalRamp": [
+          "oklch(15% 0.13089 242.92)",
+          "oklch(25% 0.13089 242.92)",
+          "oklch(35% 0.13089 242.92)",
+          "oklch(45% 0.13089 242.92)",
+          "oklch(58% 0.13089 242.92)",
+          "oklch(70% 0.13089 242.92)",
+          "oklch(83% 0.13089 242.92)",
+          "oklch(95% 0.13089 242.92)"
+        ]
+      },
+      "stage-light": {
+        "role": "neutral",
+        "displayName": "Stage Light",
+        "tonalRamp": [
+          "oklch(15% 0.07995 256.06)",
+          "oklch(25% 0.07995 256.06)",
+          "oklch(35% 0.07995 256.06)",
+          "oklch(45% 0.07995 256.06)",
+          "oklch(58% 0.07995 256.06)",
+          "oklch(70% 0.07995 256.06)",
+          "oklch(83% 0.07995 256.06)",
+          "oklch(95% 0.07995 256.06)"
+        ]
+      },
+      "header": {
+        "role": "neutral",
+        "displayName": "Header Navy",
+        "tonalRamp": [
+          "oklch(15% 0.07042 259.60)",
+          "oklch(25% 0.07042 259.60)",
+          "oklch(35% 0.07042 259.60)",
+          "oklch(45% 0.07042 259.60)",
+          "oklch(58% 0.07042 259.60)",
+          "oklch(70% 0.07042 259.60)",
+          "oklch(83% 0.07042 259.60)",
+          "oklch(95% 0.07042 259.60)"
+        ]
+      }
+    },
+    "typographyMeta": {
+      "display": {
+        "displayName": "Lobby Story",
+        "purpose": "The desktop lobby story heading."
+      },
+      "title": {
+        "displayName": "Chinese Title",
+        "purpose": "The lobby form title and related heavy hierarchy."
+      },
+      "body": {
+        "displayName": "Chinese Body",
+        "purpose": "Default page copy; Noto Sans SC is imported from Google Fonts."
+      },
+      "board-body": {
+        "displayName": "Board Body",
+        "purpose": "Center text scales with fitted square-board dimensions; short desktop is 12px and mobile is 11px."
+      },
+      "label": {
+        "displayName": "Control Label",
+        "purpose": "Field labels and compact information."
+      },
+      "wordmark": {
+        "displayName": "Capital Club",
+        "purpose": "Local Bruno Ace SC font, used for the small English brand."
+      },
+      "dice-total": {
+        "displayName": "Dice Sum",
+        "purpose": "Dominant total-only result at 3.1em; short desktop is 30px and mobile is 25px."
+      },
+      "primary-action": {
+        "displayName": "Primary Game Action",
+        "purpose": "Dominant center action at 1.5em; short desktop uses 15px and mobile uses 12px."
+      },
+      "turn": {
+        "displayName": "Turn Statement",
+        "purpose": "Heavy current-turn statement at 1.6em; short desktop uses 16px and mobile uses 12px."
+      }
+    },
+    "shadows": [
+      {
+        "name": "board-frame",
+        "value": "0 12px 30px #00000055",
+        "purpose": "Board frame against the stage."
+      },
+      {
+        "name": "gold-game-action",
+        "value": "0 4px 7px #6a471b35,inset 0 -3px 3px #bd7c2d40",
+        "purpose": "Contact shadow plus a shaded lower edge on the central action."
+      },
+      {
+        "name": "gold-form-action",
+        "value": "0 3px 5px #5a411f26",
+        "purpose": "Smaller tactile edge on primary actions outside the central stack."
+      },
+      {
+        "name": "lobby",
+        "value": "0 22px 55px #020a243d",
+        "purpose": "Entry card above the overlay."
+      },
+      {
+        "name": "property-dialog",
+        "value": "0 18px 65px #020a243d",
+        "purpose": "Compact company inspection layer."
+      },
+      {
+        "name": "toast",
+        "value": "0 5px 18px #020a2429",
+        "purpose": "Transient feedback."
+      }
+    ],
+    "motion": [
+      {
+        "name": "control-transition",
+        "value": "background .16s, box-shadow .16s, transform .16s",
+        "purpose": "Button state changes."
+      },
+      {
+        "name": "property-hover",
+        "value": "filter .16s",
+        "purpose": "Company-cell brightness feedback."
+      },
+      {
+        "name": "dice-orientation",
+        "value": "transform .2s",
+        "purpose": "Cube face orientation transition."
+      },
+      {
+        "name": "dice-roll",
+        "value": "diceTumble .27s ease-in-out infinite alternate",
+        "purpose": "Synchronized rolling state; second die starts at -.13s."
+      },
+      {
+        "name": "pawn-float",
+        "value": "pawnFloat 1.5s ease-in-out infinite alternate",
+        "purpose": "Gentle movement above the current cell."
+      },
+      {
+        "name": "pawn-step",
+        "value": "155ms",
+        "purpose": "JavaScript timer between path-cell advances."
+      },
+      {
+        "name": "toast-transition",
+        "value": "opacity .2s, transform .2s",
+        "purpose": "Transient message appearance."
+      },
+      {
+        "name": "reduced-motion",
+        "value": "@media (prefers-reduced-motion: reduce)",
+        "purpose": "Disables all animation and transitions and centers pawns."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "compact-header",
+        "value": "1100px"
+      },
+      {
+        "name": "short-desktop",
+        "value": "(min-width:701px) and (max-height:800px)"
+      },
+      {
+        "name": "mobile-center-tabs",
+        "value": "700px"
+      }
+    ]
+  },
+  "components": [
+    {
+      "name": "Primary Game Action",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "The changing roll, purchase, upgrade or auction action in the center.",
+      "html": "<div class=\"ds-actions\"><button class=\"ds-btn ds-primary\">掷骰子</button></div>",
+      "css": ".ds-actions{display:flex;flex-direction:column;gap:5px}.ds-btn{border:1px solid #afbbc9;background:#f9faf7;color:var(--ink);font-weight:800;font-size:12px;line-height:1.3;padding:10px 14px;border-radius:10px;cursor:pointer;transition:background .16s,box-shadow .16s,transform .16s}.ds-btn:hover:not(:disabled){background:#e5eaf0}.ds-btn:active:not(:disabled){transform:translateY(1px)}.ds-btn.ds-primary{border:1px solid #d4982b;color:#10264b;background:linear-gradient(#ffdc72,#f2b43a);box-shadow:0 3px 5px #5a411f26}.ds-btn.ds-primary:hover:not(:disabled){background:linear-gradient(#ffe69b,#f5c44e)}.ds-actions .ds-btn.ds-primary{font-size:1.5em;padding:.7em .5em;border-radius:18px;background:linear-gradient(#ffdb66,#f0ae26);border-color:#cf8d1d;box-shadow:0 4px 7px #6a471b35,inset 0 -3px 3px #bd7c2d40}.ds-btn:disabled{opacity:.5;cursor:not-allowed;box-shadow:none}.ds-actions .ds-btn.ds-primary:disabled{box-shadow:none}.ds-btn{font-family:var(--font,'Noto Sans SC','Microsoft YaHei',sans-serif);}.ds-btn:focus-visible{outline:3px solid #2185c5;outline-offset:3px}@media(min-width:701px) and (max-height:800px){.ds-actions .ds-btn.ds-primary{font-size:15px;padding:9px;border-radius:13px}}@media(max-width:700px){.ds-actions .ds-btn.ds-primary{font-size:12px;padding:9px 5px;border-radius:8px}}@media(prefers-reduced-motion:reduce){.ds-btn{transition:none}}"
+    },
+    {
+      "name": "Secondary Button",
+      "kind": "button",
+      "refersTo": "button-secondary",
+      "description": "Pale secondary control used in the lobby and property details.",
+      "html": "<button class=\"ds-secondary\">加入房间</button>",
+      "css": ".ds-secondary{font-family:var(--font,'Noto Sans SC','Microsoft YaHei',sans-serif);font-weight:800;font-size:12px;line-height:1.3;padding:10px 14px;border-radius:10px;cursor:pointer;transition:background .16s,box-shadow .16s,transform .16s;border:1px solid #afbbc9;background:#f9faf7;color:var(--ink,#0d2449)}.ds-secondary:hover:not(:disabled){background:#e5eaf0}.ds-secondary:active:not(:disabled){transform:translateY(1px)}.ds-secondary:disabled{opacity:.5;cursor:not-allowed;box-shadow:none}.ds-secondary:focus-visible{outline:3px solid #2185c5;outline-offset:3px}"
+    },
+    {
+      "name": "Danger Button",
+      "kind": "button",
+      "refersTo": "button-danger",
+      "description": "Destructive debt action using the red state color.",
+      "html": "<button class=\"ds-danger\">主动宣布破产</button>",
+      "css": ".ds-danger{font-family:var(--font,'Noto Sans SC','Microsoft YaHei',sans-serif);font-weight:800;font-size:12px;line-height:1.3;padding:10px 14px;border-radius:10px;cursor:pointer;transition:background .16s,box-shadow .16s,transform .16s;border:1px solid #c38f92;background:#fff6f3;color:var(--red,#b33740)}.ds-danger:hover:not(:disabled){background:#e5eaf0}.ds-danger:active:not(:disabled){transform:translateY(1px)}.ds-danger:disabled{opacity:.5;cursor:not-allowed;box-shadow:none}.ds-danger:focus-visible{outline:3px solid #2185c5;outline-offset:3px}"
+    },
+    {
+      "name": "Header Leave Action",
+      "kind": "button",
+      "refersTo": "button-leave",
+      "description": "Gold outline action outside the board, shown on its actual header surface.",
+      "html": "<div class=\"ds-header-context\"><button class=\"ds-leave\">离开房间</button></div>",
+      "css": ".ds-header-context{background:#081d3f;padding:12px}.ds-leave{font-family:var(--font,'Noto Sans SC','Microsoft YaHei',sans-serif);font-weight:800;font-size:12px;line-height:1.3;padding:10px 14px;border-radius:10px;cursor:pointer;transition:background .16s,box-shadow .16s,transform .16s;padding:10px 16px;border:1px solid #e5c461;background:transparent;color:var(--gold,#f7c654)}.ds-leave:hover:not(:disabled){background:#1d3d65}.ds-leave:active:not(:disabled){transform:translateY(1px)}.ds-leave:disabled{opacity:.5;cursor:not-allowed;box-shadow:none}.ds-leave:focus-visible{outline:3px solid #2185c5;outline-offset:3px}"
+    },
+    {
+      "name": "Player Name Field",
+      "kind": "input",
+      "refersTo": "field",
+      "description": "Ivory entry field with a persistent label and visible keyboard focus.",
+      "html": "<label class=\"ds-label\" for=\"ds-name\">你的名字</label><input class=\"ds-field\" id=\"ds-name\" placeholder=\"输入昵称\" autocomplete=\"off\">",
+      "css": ".ds-label{font-family:var(--font,'Noto Sans SC','Microsoft YaHei',sans-serif);font-size:12px;font-weight:700;display:block;margin-bottom:7px;color:var(--ink,#0d2449)}.ds-field{font-family:var(--font,'Noto Sans SC','Microsoft YaHei',sans-serif);display:block;width:100%;height:46px;padding:10px 12px;background:#fffef7;border:1px solid #b7becc;border-radius:9px;color:var(--ink,#0d2449);caret-color:var(--navy,#10294f);margin:0 0 17px}.ds-field::placeholder{color:#68758c;opacity:1}.ds-field:hover{border-color:#6e819c}.ds-field:focus-visible{outline:3px solid #2185c5;outline-offset:3px}"
+    },
+    {
+      "name": "Mobile Center Tabs",
+      "kind": "nav",
+      "refersTo": "panel-tab",
+      "description": "The three center views shown at 700px or below; selected state uses aria-pressed.",
+      "html": "<nav class=\"ds-tabs\" aria-label=\"棋盘控制栏\"><button type=\"button\" aria-pressed=\"true\">对局</button><button type=\"button\" aria-pressed=\"false\">地产</button><button type=\"button\" aria-pressed=\"false\">记录</button></nav>",
+      "css": ".ds-tabs{display:flex;gap:3px;background:var(--paper,#f6f5eb);padding-bottom:4px;border-bottom:1px solid #d8d6c9}.ds-tabs button{font-family:var(--font,'Noto Sans SC','Microsoft YaHei',sans-serif);flex:1;border:0;border-radius:6px;background:transparent;color:var(--muted,#53627a);font-size:11px;font-weight:800;min-height:30px;padding:5px;cursor:pointer}.ds-tabs button[aria-pressed=true]{background:var(--navy,#10294f);color:var(--paper,#f6f5eb)}.ds-tabs button:focus-visible{outline:3px solid #2185c5;outline-offset:3px}"
+    },
+    {
+      "name": "Empty Portfolio",
+      "kind": "card",
+      "refersTo": "empty-portfolio",
+      "description": "The implemented portfolio empty state explains how to acquire and manage companies.",
+      "html": "<div class=\"ds-empty\"><strong>还没有地产</strong>掷骰走到企业格，即可购买。<br>已有地产后，点选卡片可出售房屋或地产。</div>",
+      "css": ".ds-empty{font-family:var(--font,'Noto Sans SC','Microsoft YaHei',sans-serif);text-align:center;padding:12px 8px;color:var(--muted,#53627a);line-height:1.6;background:#eeeede;border-radius:10px;font-size:.9em}.ds-empty strong{display:block;color:var(--ink,#0d2449);font-size:1em}"
+    },
+    {
+      "name": "Dice and Total",
+      "kind": "custom",
+      "description": "A static result from the actual six-face cube renderer, with a total-only text result.",
+      "html": "<div class=\"ds-dice\" aria-label=\"骰子结果：8 点\"><div class=\"ds-faces\" aria-hidden=\"true\"><span class=\"ds-die\"><span class=\"ds-cube\"><span class=\"ds-face ds-front\"><svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><circle cx=\"27\" cy=\"27\" r=\"9\" fill=\"currentColor\"/><circle cx=\"73\" cy=\"27\" r=\"9\" fill=\"currentColor\"/><circle cx=\"50\" cy=\"50\" r=\"9\" fill=\"currentColor\"/><circle cx=\"27\" cy=\"73\" r=\"9\" fill=\"currentColor\"/><circle cx=\"73\" cy=\"73\" r=\"9\" fill=\"currentColor\"/></svg></span><span class=\"ds-face ds-back\"><svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><circle cx=\"27\" cy=\"27\" r=\"9\" fill=\"currentColor\"/><circle cx=\"73\" cy=\"73\" r=\"9\" fill=\"currentColor\"/></svg></span><span class=\"ds-face ds-right\"><svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><circle cx=\"27\" cy=\"27\" r=\"9\" fill=\"currentColor\"/><circle cx=\"73\" cy=\"27\" r=\"9\" fill=\"currentColor\"/><circle cx=\"27\" cy=\"73\" r=\"9\" fill=\"currentColor\"/><circle cx=\"73\" cy=\"73\" r=\"9\" fill=\"currentColor\"/></svg></span><span class=\"ds-face ds-left\"><svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><circle cx=\"27\" cy=\"27\" r=\"9\" fill=\"currentColor\"/><circle cx=\"50\" cy=\"50\" r=\"9\" fill=\"currentColor\"/><circle cx=\"73\" cy=\"73\" r=\"9\" fill=\"currentColor\"/></svg></span><span class=\"ds-face ds-top\"><svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><circle cx=\"27\" cy=\"25\" r=\"9\" fill=\"currentColor\"/><circle cx=\"73\" cy=\"25\" r=\"9\" fill=\"currentColor\"/><circle cx=\"27\" cy=\"50\" r=\"9\" fill=\"currentColor\"/><circle cx=\"73\" cy=\"50\" r=\"9\" fill=\"currentColor\"/><circle cx=\"27\" cy=\"75\" r=\"9\" fill=\"currentColor\"/><circle cx=\"73\" cy=\"75\" r=\"9\" fill=\"currentColor\"/></svg></span><span class=\"ds-face ds-bottom\"><svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><circle cx=\"50\" cy=\"50\" r=\"9\" fill=\"currentColor\"/></svg></span></span></span><span class=\"ds-die\"><span class=\"ds-cube\"><span class=\"ds-face ds-front\"><svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><circle cx=\"27\" cy=\"27\" r=\"9\" fill=\"currentColor\"/><circle cx=\"50\" cy=\"50\" r=\"9\" fill=\"currentColor\"/><circle cx=\"73\" cy=\"73\" r=\"9\" fill=\"currentColor\"/></svg></span><span class=\"ds-face ds-back\"><svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><circle cx=\"27\" cy=\"27\" r=\"9\" fill=\"currentColor\"/><circle cx=\"73\" cy=\"27\" r=\"9\" fill=\"currentColor\"/><circle cx=\"27\" cy=\"73\" r=\"9\" fill=\"currentColor\"/><circle cx=\"73\" cy=\"73\" r=\"9\" fill=\"currentColor\"/></svg></span><span class=\"ds-face ds-right\"><svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><circle cx=\"27\" cy=\"27\" r=\"9\" fill=\"currentColor\"/><circle cx=\"73\" cy=\"27\" r=\"9\" fill=\"currentColor\"/><circle cx=\"50\" cy=\"50\" r=\"9\" fill=\"currentColor\"/><circle cx=\"27\" cy=\"73\" r=\"9\" fill=\"currentColor\"/><circle cx=\"73\" cy=\"73\" r=\"9\" fill=\"currentColor\"/></svg></span><span class=\"ds-face ds-left\"><svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><circle cx=\"27\" cy=\"27\" r=\"9\" fill=\"currentColor\"/><circle cx=\"73\" cy=\"73\" r=\"9\" fill=\"currentColor\"/></svg></span><span class=\"ds-face ds-top\"><svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><circle cx=\"27\" cy=\"25\" r=\"9\" fill=\"currentColor\"/><circle cx=\"73\" cy=\"25\" r=\"9\" fill=\"currentColor\"/><circle cx=\"27\" cy=\"50\" r=\"9\" fill=\"currentColor\"/><circle cx=\"73\" cy=\"50\" r=\"9\" fill=\"currentColor\"/><circle cx=\"27\" cy=\"75\" r=\"9\" fill=\"currentColor\"/><circle cx=\"73\" cy=\"75\" r=\"9\" fill=\"currentColor\"/></svg></span><span class=\"ds-face ds-bottom\"><svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><circle cx=\"50\" cy=\"50\" r=\"9\" fill=\"currentColor\"/></svg></span></span></span></div><span class=\"ds-total\"><strong>8</strong><small>点</small></span></div>",
+      "css": ".ds-dice{font-family:var(--font,'Noto Sans SC','Microsoft YaHei',sans-serif);display:flex;align-items:center;justify-content:center;gap:10px;background:var(--paper,#f6f5eb);padding:7px;color:var(--ink,#0d2449)}.ds-faces{display:flex;gap:13px;perspective:600px;padding:7px}.ds-die{display:block;position:relative;width:40px;height:40px;color:#15202c}.ds-cube{display:block;width:100%;height:100%;position:relative;transform-style:preserve-3d;transform:rotateX(-16deg) rotateY(-21deg);transition:transform .2s}.ds-face{position:absolute;inset:0;border-radius:15%;background:linear-gradient(135deg,#fffef4,#e6dfca);border:1px solid #d9d0b8;backface-visibility:hidden}.ds-face svg{display:block;width:100%;height:100%}.ds-front{transform:translateZ(20px)}.ds-back{transform:rotateY(180deg) translateZ(20px)}.ds-right{transform:rotateY(90deg) translateZ(20px);background:#ddd5bf}.ds-left{transform:rotateY(-90deg) translateZ(20px)}.ds-top{transform:rotateX(90deg) translateZ(20px)}.ds-bottom{transform:rotateX(-90deg) translateZ(20px)}.ds-total{display:flex;align-items:baseline;gap:2px}.ds-total strong{font-size:3.1em;line-height:1;font-weight:900}.ds-total small{font-size:1em;font-weight:800}@media(prefers-reduced-motion:reduce){.ds-cube{transition:none}}"
+    },
+    {
+      "name": "Owned Property Card",
+      "kind": "card",
+      "refersTo": "portfolio-card",
+      "description": "The actual first property, its inline company mark, purchase price and base rent; source-sized at all three density levels.",
+      "html": "<button class=\"ds-owned-card\" style=\"--tile:#8B5A2B\"><span class=\"ds-owned-logo\"><svg fill=\"#E50914\" role=\"img\" viewBox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\"><title>Netflix</title><path d=\"M5.398 0v.006c3.028 8.556 5.37 15.175 8.348 23.596 2.344.058 4.85.398 4.854.398-2.8-7.924-5.923-16.747-8.487-24zm8.489 0v9.63L18.6 22.951c-.043-7.86-.004-15.913.002-22.95zM5.398 1.05V24c1.873-.225 2.81-.312 4.715-.398v-9.22z\"/></svg></span><span class=\"ds-owned-stars\"></span><span class=\"ds-owned-name\">1. Netflix</span><span class=\"ds-owned-band\"></span><span class=\"ds-owned-price\">$600</span><span class=\"ds-owned-rent\">租金 $20</span></button>",
+      "css": ".ds-owned-card{border:1px solid #d5d0c2;border-radius:12px;background:#fbfaf3;min-width:0;text-align:left;padding:10px;cursor:pointer;color:var(--ink);position:relative}.ds-owned-card:hover{background:#fff7df;border-color:#bf922e}.ds-owned-logo{display:block;height:clamp(40px,calc(var(--board-size,800px)/12),90px);width:100%;padding:4px;object-fit:contain;margin-bottom:4px}.ds-owned-name{display:block;font-size:.9em;line-height:1.5;font-weight:800;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}.ds-owned-band{display:block;height:7px;background:var(--tile);border:1px solid #071b3a20;border-radius:3px;margin:4px 0}.ds-owned-price{display:block;font-weight:900;font-size:1.4em;line-height:1.3}.ds-owned-rent{display:block;font-size:.9em;margin-top:3px}.ds-owned-stars{position:absolute;right:6px;top:3px;color:#e5a929;font-size:.95em;letter-spacing:-.15em;text-shadow:0 1px 0 #a57518}.ds-owned-card{font-family:var(--font,'Noto Sans SC','Microsoft YaHei',sans-serif);}.ds-owned-logo svg{display:block;width:100%;height:100%}.ds-owned-card:focus-visible{outline:3px solid #2185c5;outline-offset:3px}@media(min-width:701px) and (max-height:800px){.ds-owned-card{padding:7px}.ds-owned-logo{height:42px;margin-bottom:3px}.ds-owned-name{font-size:11px}.ds-owned-price{font-size:16px}.ds-owned-rent{font-size:11px}}@media(max-width:700px){.ds-owned-card{padding:6px;border-radius:8px}.ds-owned-logo{height:35px}.ds-owned-name{font-size:11px}.ds-owned-price{font-size:12px}.ds-owned-rent{font-size:11px}}"
+    },
+    {
+      "name": "Property Detail Header",
+      "kind": "custom",
+      "description": "Company name leads; muted property identifier sits below it, followed by its group.",
+      "html": "<header class=\"ds-detailhead\" style=\"--tile:#8B5A2B\"><button class=\"ds-detailclose\" aria-label=\"关闭\">×</button><div class=\"ds-detailbrand\"><span><span class=\"ds-brandmark\"><svg fill=\"#E50914\" role=\"img\" viewBox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\"><title>Netflix</title><path d=\"M5.398 0v.006c3.028 8.556 5.37 15.175 8.348 23.596 2.344.058 4.85.398 4.854.398-2.8-7.924-5.923-16.747-8.487-24zm8.489 0v9.63L18.6 22.951c-.043-7.86-.004-15.913.002-22.95zM5.398 1.05V24c1.873-.225 2.81-.312 4.715-.398v-9.22z\"/></svg></span></span><div><h2>Netflix</h2><div class=\"ds-detail-id\">地产编号 #1</div></div></div><span class=\"ds-detailgroup\"><i></i>棕色地产组</span></header>",
+      "css": ".ds-detailhead{position:relative;padding:20px 22px 16px;border-bottom:1px solid #ded9c7;background:#eaece4}.ds-detailclose{position:absolute;right:12px;top:12px;width:32px;height:32px;display:grid;place-items:center;padding:0;border:1px solid #bbc1c8;border-radius:9px;background:#fffaf0;color:var(--ink);font-size:24px;cursor:pointer}.ds-detailbrand{display:flex;align-items:center;gap:12px;padding-right:28px}.ds-detailbrand .ds-brandmark{height:54px;width:70px;padding:5px;border-radius:8px}.ds-detailhead h2{margin:2px 0 0;font-size:24px;line-height:1.2;font-weight:900}.ds-detail-id{font-size:11px;color:var(--muted);margin-top:6px}.ds-detailgroup{display:inline-flex;align-items:center;gap:6px;font-size:11px;margin-top:13px}.ds-detailgroup i{width:10px;height:10px;border-radius:3px;background:var(--tile)}.ds-detailhead{font-family:var(--font,'Noto Sans SC','Microsoft YaHei',sans-serif);color:var(--ink,#0d2449)}.ds-brandmark{display:grid;place-items:center;background:#fff;overflow:hidden}.ds-brandmark svg{width:100%;height:100%}.ds-detailclose:focus-visible{outline:3px solid #2185c5;outline-offset:3px}"
+    }
+  ],
+  "narrative": {
+    "northStar": "The Capital Club Table",
+    "overview": "The approved navy, gold and ivory world presents the game as a compact digital club table. A dark stage frames a warm reading surface; company marks, individual player colors and tactile dice supply the visual activity. Chinese text carries instructions and financial information, while the small English wordmark adds the club signature.\n\nThis document records the implemented `index.html`, rather than the proportions or sample data in the composition mockup. The approved portfolio-centered composition C is adapted to the product's true square board and logo cells. The detailed page composition belongs in `.impeccable/surfaces/index-html.md`.",
+    "keyCharacteristics": [
+      "A midnight stage, ivory surfaces and concentrated gold emphasis.",
+      "Heavy Chinese headings and clearly ranked, tabular money values.",
+      "Real company marks, illustrated special spaces and colored car pieces.",
+      "Compact, softly rounded controls inside a strict square board."
+    ],
+    "rules": [
+      {
+        "name": "The Identity Color Rule",
+        "body": "Keep real company marks multicolor. Player ownership and property-group colors come from game data; do not replace them with the club palette or use them as arbitrary page accents.",
+        "section": "colors"
+      },
+      {
+        "name": "The Sum Rule",
+        "body": "The visible dice result and activity text report the total points. The two dice may show individual pip faces, but do not add a visible arithmetic equation.",
+        "section": "typography"
+      },
+      {
+        "name": "The Square Rule",
+        "body": "Preserve equal logo-cell width and height, the real perimeter topology, outside price tags and all routine game controls within the inner square. The leave-room action stays in the header outside the board.",
+        "section": "layout"
+      }
+    ],
+    "dos": [
+      "**Do** keep the board and logo cells square in both player modes.",
+      "**Do** keep price and current-rent ribbons outside their corresponding company cells.",
+      "**Do** preserve real company logos, dollar values and individual ownership colors.",
+      "**Do** use the gold action, strong total and active-player state to make the next move clear.",
+      "**Do** use the three center tabs on narrow screens and honor reduced motion."
+    ],
+    "donts": [
+      "**Don't** copy mockup company data, sample prices or rectangular logo geometry into the game.",
+      "**Don't** move routine controls outside the inner square or the leave-room control into it.",
+      "**Don't** crop company marks, replace them with decorative monochrome marks or put price text over them.",
+      "**Don't** introduce a visible dice arithmetic equation or unrelated decorative statistics."
+    ]
+  }
+}
